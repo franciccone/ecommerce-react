@@ -1,0 +1,10 @@
+/* --- RESET --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
