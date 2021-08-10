@@ -1,4 +1,5 @@
 import React from 'react';
+import CartWidget from '../CartWidget/CartWidget';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -8,14 +9,16 @@ const NavBar = () => {
                 <h1>LOGO</h1>
 
                 <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Cities</a>
-                    <a href="#">About Us</a>
+                    <a href="https://github.com/franciccone">Home</a>
+                    <a href="https://github.com/franciccone">Cities</a>
+                    <a href="https://github.com/franciccone">About Us</a>
                 </nav>
+
+                <CartWidget />
             </header>
 
     );
 
 }
 
-export default NavBar
+export default NavBar;
