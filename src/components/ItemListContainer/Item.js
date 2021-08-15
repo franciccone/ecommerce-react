@@ -6,7 +6,7 @@ export const Item = ( {img, name, desc, price} ) => {
                 <img src={img} alt={name}/>
                 <h3>{name}</h3>
                 <p>{desc}</p>
-                <p>{price}</p>
+                <p>{price} €</p>
             </div>
     )
 }
