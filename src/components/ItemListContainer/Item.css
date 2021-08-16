@@ -6,6 +6,7 @@
     border-radius: 15px;
     margin: 0.35em 0;
     text-align: center;
+    overflow: hidden;
 }
 
 .card-img {
@@ -13,6 +14,11 @@
     height: auto;
     margin: 0.35em 0.35em;
     text-align: center;
+    transition: all 1s linear;
+}
+
+.card-img:hover {
+    transform: scale(1.05);
 }
 
 .card-name, .card-desc, .card-price {
@@ -22,4 +28,5 @@
 
 .card-name {
     text-transform: uppercase;
+    color: #E63946;
 }
