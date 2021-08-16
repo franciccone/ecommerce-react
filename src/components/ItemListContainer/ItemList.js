@@ -6,7 +6,7 @@ export const ItemList = ( {cities = []} ) => {
 
     return (
         <section className="container">
-            <h2>Cities</h2>
+            <h2 className="container-title">Cities</h2>
             <hr/>
             <div className="row">
 

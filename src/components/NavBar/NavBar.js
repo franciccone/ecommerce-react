@@ -6,12 +6,12 @@ const NavBar = () => {
     return (
 
             <header className="navbar">
-                <h1>LOGO</h1>
+                <h1 className="logo">LOGO</h1>
 
-                <nav>
-                    <a href="https://github.com/franciccone">Home</a>
-                    <a href="https://github.com/franciccone">Cities</a>
-                    <a href="https://github.com/franciccone">About Us</a>
+                <nav className="menu">
+                    <a className="menu-link" href="https://github.com/franciccone">Home</a>
+                    <a className="menu-link" href="https://github.com/franciccone">Cities</a>
+                    <a className="menu-link" href="https://github.com/franciccone">About Us</a>
                 </nav>
 
                 <CartWidget />
