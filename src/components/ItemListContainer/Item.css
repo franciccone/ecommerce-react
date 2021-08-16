@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.card {
+    flex: 0 1 calc(25% - 1em);
+    border: 2px #E63946 solid;
+    border-radius: 15px;
+    margin: 0.35em 0;
+    text-align: center;
+}
+
+.card-img {
+    width: 65%;
+    height: auto;
+    margin: 0.35em 0.35em;
+    text-align: center;
+}
+
+.card-name, .card-desc, .card-price {
+    margin: 0 0.35em 0.35em 0.35em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-name {
+    text-transform: uppercase;
+}
