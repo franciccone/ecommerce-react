@@ -15,10 +15,12 @@
     margin: 0.35em 0.35em;
     text-align: center;
     transition: all 1s linear;
+    opacity: 0.7;
 }
 
 .card-img:hover {
     transform: scale(1.05);
+    opacity: 1;
 }
 
 .card-name, .card-desc, .card-price {
