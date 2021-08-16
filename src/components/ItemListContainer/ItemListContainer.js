@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { requestData } from "../../helpers/resquestData"
 import { ItemList } from "./ItemList"
+import './ItemListContainer.css';
 
 const ItemListContainer = () => {
 
@@ -22,7 +23,7 @@ const ItemListContainer = () => {
 
             {
                 loading
-                ? <h2>Loading...</h2>
+                ? <h2 className="loading">Loading...</h2>
                 : <ItemList cities={data}/>
             }
 
