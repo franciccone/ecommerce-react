@@ -1,0 +1,8 @@
+.cart-icon {
+    color: #E63946;
+    font-size: 1.5em;
+}
+
+.cart-icon:hover {
+    color: #1D3557;
+}

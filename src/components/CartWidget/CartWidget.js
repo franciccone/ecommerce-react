@@ -1,10 +1,11 @@
 import React from 'react';
-import { Icon } from '@iconify/react';
+import './CartWidget.css';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 const CartWidget = () => {
 
     return (
-            <Icon icon="bi:cart" />
+            <AiOutlineShoppingCart className="cart-icon"/>
     );
 
 }
