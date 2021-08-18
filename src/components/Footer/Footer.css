@@ -8,3 +8,11 @@
     color: #E63946;
     margin: 2em 0;
 }
+
+.sm-icon {
+    padding: 10px;
+}
+
+.sm-icon:hover {
+    color: #1D3557;
+}
