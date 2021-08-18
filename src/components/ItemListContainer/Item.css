@@ -4,31 +4,50 @@
     flex: 0 1 calc(25% - 1em);
     border: 2px #E63946 solid;
     border-radius: 15px;
-    margin: 0.35em 0;
+    margin: 0.8em 0.5em;
     text-align: center;
     overflow: hidden;
 }
 
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .card-img {
-    width: 65%;
+    width: 70%;
     height: auto;
-    margin: 0.35em 0.35em;
+    border-radius: 15px;
+    margin: 0.7em 0.35em 0.35em 0.35em;
     text-align: center;
     transition: all 1s linear;
-    opacity: 0.8;
 }
 
 .card-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     opacity: 1;
 }
 
-.card-name, .card-desc, .card-price {
-    margin: 0 0.35em 0.35em 0.35em;
+.card-name, .card-desc, .card-price, .card-btn {
+    margin: 0.35em 0.35em 0.7em 0.35em;
     font-family: 'Montserrat', sans-serif;
 }
 
 .card-name {
     text-transform: uppercase;
     color: #E63946;
+}
+
+.card-btn {
+    background-color: #E63946;
+    color: #F1FAEE;
+    border: 2px #E63946 solid;
+    border-radius: 15px;
+    padding: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-btn:hover {
+    color: #E63946;
+    background-color: #F1FAEE;
 }

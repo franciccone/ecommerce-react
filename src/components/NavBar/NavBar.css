@@ -6,9 +6,14 @@
     justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
     color: #E63946;
+    margin: 2em 0;
 }
 
 .menu-link {
     padding: 10px;
     text-transform: uppercase;
+}
+
+.menu-link:hover {
+    color: #1D3557;
 }
