@@ -23,7 +23,7 @@ const ItemListContainer = () => {
 
             {
                 loading
-                ? <h2 className="loading">Loading...</h2>
+                ? <h2 className="loading">Loading... <div className="loader"></div></h2>
                 : <ItemList cities={data}/>
             }
 
