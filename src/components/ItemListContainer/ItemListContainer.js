@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { requestData } from "../../helpers/resquestData"
+import { requestData } from "../../helpers/requestData"
 import { ItemList } from "./ItemList"
 import './ItemListContainer.css';
 
