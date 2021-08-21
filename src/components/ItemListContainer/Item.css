@@ -45,6 +45,7 @@
     padding: 12px;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .card-btn:hover {
