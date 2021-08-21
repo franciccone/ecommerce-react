@@ -8,7 +8,7 @@ export const ItemDetail = ({category, id, name, desc, img, price}) => {
     return (
         <div>
             <h2>{name}</h2>
-            <p>Price: {price}</p>
+            <p>Price: {price} €</p>
             <img src={img} alt={name}/>
             <p>{desc}</p>
 
