@@ -6,12 +6,12 @@ import './styles/styles.css'
 
 function App() {
   return (
-    <>
+    <main className="main">
       <NavBar/>
       <Slider/>
       <ItemListContainer/>
       <Footer/>
-    </>
+    </main>
   );
 }
 
