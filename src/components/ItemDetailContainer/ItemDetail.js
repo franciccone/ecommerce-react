@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './ItemDetail.css';
 
 export const ItemDetail = ({category, id, name, desc, img, price}) => {
 

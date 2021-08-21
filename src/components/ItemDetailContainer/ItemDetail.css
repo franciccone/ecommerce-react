@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.card-btn {
+    background-color: #E63946;
+    color: #F1FAEE;
+    border: 2px #E63946 solid;
+    border-radius: 15px;
+    padding: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    color: #E63946;
+    background-color: #F1FAEE;
+}
