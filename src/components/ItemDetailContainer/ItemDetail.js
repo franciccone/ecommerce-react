@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './ItemDetail.css';
 
 export const ItemDetail = ({region, id, name, desc, img, price}) => {

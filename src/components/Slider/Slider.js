@@ -27,9 +27,6 @@ export const Slider = ( ) => {
                         <h1>Local guides for every budget</h1>
                     </div>
                 </div>
-                <div>
-                    Controles
-                </div>
             </div>
         </section>
     );
