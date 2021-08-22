@@ -11,11 +11,11 @@ const NavBar = () => {
 
                 <nav className="menu">
                     <Link to={"/"} className="menu-link">Home</Link>
-                    <Link to={"/regions"} className="menu-link">Regions</Link>
-                    <Link to={"/regions/east"} className="menu-link">East</Link>
-                    <Link to={"/regions/scandinavia"} className="menu-link">Scandinavia</Link>
-                    <Link to={"/regions/south"} className="menu-link">South</Link>
-                    <Link to={"/regions/west"} className="menu-link">West</Link>
+                    <Link to={"/region"} className="menu-link">Regions</Link>
+                    <Link to={"/region/east"} className="menu-link">East</Link>
+                    <Link to={"/region/scandinavia"} className="menu-link">Scandinavia</Link>
+                    <Link to={"/region/south"} className="menu-link">South</Link>
+                    <Link to={"/region/west"} className="menu-link">West</Link>
                     <Link to={"/about"} className="menu-link">About Us</Link>
                 </nav>
 

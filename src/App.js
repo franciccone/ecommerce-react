@@ -12,13 +12,15 @@ function App() {
     <>
       <BrowserRouter>
         <NavBar/>
-        <Slider/>
-        <ItemListContainer/>
-        
 
         <Switch>
           <Route exact path="/">
+            <Slider/>
+            <ItemListContainer/>
+          </Route>
 
+          <Route exact path="/category/:catId">
+            <ItemListContainer/>
           </Route>
 
           <Route exact path="/about">
