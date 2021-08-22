@@ -1,9 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { SiFacebook } from 'react-icons/si';
-import { SiInstagram } from 'react-icons/si';
-import { SiTwitter } from 'react-icons/si';
-import { SiYoutube } from 'react-icons/si';
+import { SiFacebook, SiInstagram, SiTwitter, SiYoutube } from 'react-icons/si';
 
 const Footer = () => {
     return (

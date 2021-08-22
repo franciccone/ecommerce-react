@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './ItemDetail.css';
 
-export const ItemDetail = ({category, id, name, desc, img, price}) => {
+export const ItemDetail = ({region, id, name, desc, img, price}) => {
 
 
     return (
@@ -13,7 +13,7 @@ export const ItemDetail = ({category, id, name, desc, img, price}) => {
             <p>{desc}</p>
 
 
-            <Link to={`/category/${category}`} className="card-btn">Back</Link>
+            <Link to={`/regions/${region}`} className="card-btn">Back</Link>
         </div>
     )
 }

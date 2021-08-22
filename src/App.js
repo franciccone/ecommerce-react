@@ -20,11 +20,11 @@ function App() {
 
           </Route>
 
-          <Route exact path="/about-us">
+          <Route exact path="/aboutUs">
             
           </Route>
 
-          <Route exact path="/detail/:itemid">
+          <Route exact path="/detail/:itemId">
             <ItemDetailContainer/>
           </Route>
 
@@ -34,6 +34,7 @@ function App() {
         </Switch>
 
         <Footer/>
+
       </BrowserRouter>
     </>
   );
