@@ -3,6 +3,7 @@ import Footer from './components/Footer/Footer';
 import Slider from './components/Slider/Slider';
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import About from './components/About/About';
 import './styles/styles.css'
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
@@ -20,8 +21,8 @@ function App() {
 
           </Route>
 
-          <Route exact path="/aboutUs">
-            
+          <Route exact path="/about">
+            <About/>
           </Route>
 
           <Route exact path="/detail/:itemId">

@@ -12,7 +12,7 @@ const NavBar = () => {
                 <nav className="menu">
                     <Link to={"/"} className="menu-link">Home</Link>
                     <Link to={"/regions"} className="menu-link">Regions</Link>
-                    <Link to={"/about-us"} className="menu-link">About Us</Link>
+                    <Link to={"/about"} className="menu-link">About Us</Link>
                 </nav>
 
                 <CartWidget />
