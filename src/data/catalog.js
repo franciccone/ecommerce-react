@@ -33,7 +33,7 @@ export const catalog = [
         id: 2,
         img: athens,
         picture: athens,
-        region: "South",
+        region: "south",
         name: "Athens",
         desc: "Lorem ipsum dolor sit amet",
         price: 5
@@ -42,7 +42,7 @@ export const catalog = [
         id: 3,
         img: barcelona,
         picture: barcelona,
-        region: "West",
+        region: "west",
         name: "Barcelona",
         desc: "Lorem ipsum dolor sit amet",
         price: 6
@@ -51,7 +51,7 @@ export const catalog = [
         id: 4,
         img: berlin,
         picture: berlin,
-        region: "West",
+        region: "west",
         name: "Berlin",
         desc: "Lorem ipsum dolor sit amet",
         price: 5
@@ -60,7 +60,7 @@ export const catalog = [
         id: 5,
         img: budapest,
         picture: budapest,
-        region: "East",
+        region: "east",
         name: "Budapest",
         desc: "Lorem ipsum dolor sit amet",
         price: 5
@@ -69,7 +69,7 @@ export const catalog = [
         id: 6,
         img: copenhagen,
         picture: copenhagen,
-        region: "Scandinavia",
+        region: "scandinavia",
         name: "Copenhagen",
         desc: "Lorem ipsum dolor sit amet",
         price: 6
@@ -78,7 +78,7 @@ export const catalog = [
         id: 7,
         img: dublin,
         picture: dublin,
-        region: "West",
+        region: "west",
         name: "Dublin",
         desc: "Lorem ipsum dolor sit amet",
         price: 5
@@ -87,7 +87,7 @@ export const catalog = [
         id: 8,
         img: helsinki,
         picture: helsinki,
-        region: "Scandinavia",
+        region: "scandinavia",
         name: "Helsinki",
         desc: "Lorem ipsum dolor sit amet",
         price: 8
@@ -96,7 +96,7 @@ export const catalog = [
         id: 9,
         img: lisbon,
         picture: lisbon,
-        region: "West",
+        region: "west",
         name: "Lisbon",
         desc: "Lorem ipsum dolor sit amet",
         price: 5
@@ -105,7 +105,7 @@ export const catalog = [
         id: 10,
         img: london,
         picture: london,
-        region: "West",
+        region: "west",
         name: "London",
         desc: "Lorem ipsum dolor sit amet",
         price: 7
@@ -114,7 +114,7 @@ export const catalog = [
         id: 11,
         img: madrid,
         picture: madrid,
-        region: "West",
+        region: "west",
         name: "Madrid",
         desc: "Lorem ipsum dolor sit amet",
         price: 6
@@ -123,7 +123,7 @@ export const catalog = [
         id: 12,
         img: milan,
         picture: milan,
-        region: "West",
+        region: "west",
         name: "Milan",
         desc: "Lorem ipsum dolor sit amet",
         price: 7
@@ -132,7 +132,7 @@ export const catalog = [
         id: 13,
         img: munich,
         picture: munich,
-        region: "West",
+        region: "west",
         name: "Munich",
         desc: "Lorem ipsum dolor sit amet",
         price: 7
@@ -141,7 +141,7 @@ export const catalog = [
         id: 14,
         img: paris,
         picture: paris,
-        region: "West",
+        region: "west",
         name: "Paris",
         desc: "Lorem ipsum dolor sit amet",
         price: 7
@@ -150,7 +150,7 @@ export const catalog = [
         id: 15,
         img: prague,
         picture: prague,
-        region: "East",
+        region: "east",
         name: "Prague",
         desc: "Lorem ipsum dolor sit amet",
         price: 5
@@ -159,7 +159,7 @@ export const catalog = [
         id: 16,
         img: rome,
         picture: rome,
-        region: "West",
+        region: "west",
         name: "Rome",
         desc: "Lorem ipsum dolor sit amet",
         price: 6
@@ -168,7 +168,7 @@ export const catalog = [
         id: 17,
         img: stockholm,
         picture: stockholm,
-        region: "Scandinavia",
+        region: "scandinavia",
         name: "Stockholm",
         desc: "Lorem ipsum dolor sit amet",
         price: 8
@@ -177,7 +177,7 @@ export const catalog = [
         id: 18,
         img: vienna,
         picture: vienna,
-        region: "West",
+        region: "west",
         name: "Vienna",
         desc: "Lorem ipsum dolor sit amet",
         price: 8
@@ -186,7 +186,7 @@ export const catalog = [
         id: 19,
         img: zagreb,
         picture: zagreb,
-        region: "South",
+        region: "south",
         name: "Zagreb",
         desc: "Lorem ipsum dolor sit amet",
         price: 5
@@ -195,7 +195,7 @@ export const catalog = [
         id: 20,
         img: zurich,
         picture: zurich,
-        region: "West",
+        region: "west",
         name: "Zürich",
         desc: "Lorem ipsum dolor sit amet",
         price: 8

@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
 import { requestData } from "../../helpers/requestData"
 import { ItemList } from "./ItemList"
 import './ItemListContainer.css';
 
 const ItemListContainer = () => {
+
+    const { regionId } = useParams()
 
     const [data, setData] = useState([])
     const [loading, setLoading] = useState(false)
@@ -13,10 +16,17 @@ const ItemListContainer = () => {
         setLoading(true)
 
         requestData()
-            .then(res => { setData(res) })
+            .then(res => {
+                if (regionId){
+                    const filterArray = res.filter(cities => cities.region === regionId)
+                    setData(filterArray)
+                } else {
+                    setData(res)
+                }
+            })
             .catch(err => console.log(err))
             .finally(() => {setLoading(false)})
-    }, [])
+    }, [regionId])
     
     return (
         <>

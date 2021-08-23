@@ -6,14 +6,13 @@ export const ItemDetail = ({region, id, name, desc, img, price}) => {
 
 
     return (
-        <div>
-            <h2>{name}</h2>
-            <p>Price: {price} €</p>
-            <img src={img} alt={name}/>
-            <p>{desc}</p>
+        <div className="city-container">
+            <img className="city-img" src={img} alt={name}/>
+            <h2 className="city-name">{name}</h2>
+            <p className="city-price">Price: {price} €</p>
+            <p className="city-desc">{desc}</p>
 
-
-            <Link to={`/regions/${region}`} className="card-btn">Back</Link>
+            <Link to={`/regions/${region}`} className="city-btn">Back</Link>
         </div>
     )
 }
