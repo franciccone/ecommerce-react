@@ -1,5 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
+.city-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 7em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.city-img {
+    width: 100%;
+    height: auto;
+}
+
+.city-box {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    margin: 1em 0;
+    background-color: #E63946;
+}
+
+.city-name {
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F1FAEE;
+}
+
+.city-price {
+    font-weight: 400;
+    color: #F1FAEE;
+}
+
+.city-desc {
+    margin: 1em 0;
+}
+
 .city-btn {
     background-color: #E63946;
     color: #F1FAEE;

@@ -5,8 +5,10 @@
     border: 2px #E63946 solid;
     border-radius: 15px;
     margin: 0.8em 0.5em;
+    padding-bottom: 1.5em;
     text-align: center;
     overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card:hover {
@@ -27,14 +29,18 @@
     opacity: 1;
 }
 
-.card-name, .card-desc, .card-price, .card-btn {
+.card-name, .card-desc, .card-price {
     margin: 0.35em 0.35em 0.7em 0.35em;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .card-name {
     text-transform: uppercase;
     color: #E63946;
+}
+
+
+.card-price {
+    margin-bottom: 1.4em;
 }
 
 .card-btn {
