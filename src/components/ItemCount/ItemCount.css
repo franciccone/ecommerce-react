@@ -1,18 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .minus-button, .plus-button, .add-button {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
     background-color: #E63946;
     color: #F1FAEE;
     border: 2px #E63946 solid;
-    border-radius: 15px;
-    padding: 12px;
-    text-transform: uppercase;
-    font-weight: bold;
+    border-radius: 12px;
+    padding: 7px 10px;
+    margin: 0.75em;
     cursor: pointer;
 }
 
 .minus-button:hover, .plus-button:hover, .add-button:hover {
     color: #E63946;
     background-color: #F1FAEE;
+}
+
+.minus-button, .plus-button {
+    font-size: 1.5rem;
 }

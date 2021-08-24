@@ -37,7 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@iconify/react": "^3.0.0"
-  }
+  "devDependencies": {}
 }

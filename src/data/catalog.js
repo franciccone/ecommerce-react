@@ -47,6 +47,7 @@ export const catalog = [
         region: "West",
         name: "Amsterdam",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 6
     },
     {
@@ -56,6 +57,7 @@ export const catalog = [
         region: "south",
         name: "Athens",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 5
     },
     {
@@ -65,6 +67,7 @@ export const catalog = [
         region: "west",
         name: "Barcelona",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 6
     },
     {
@@ -74,6 +77,7 @@ export const catalog = [
         region: "west",
         name: "Berlin",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 5
     },
     {
@@ -83,6 +87,7 @@ export const catalog = [
         region: "east",
         name: "Budapest",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 5
     },
     {
@@ -92,6 +97,7 @@ export const catalog = [
         region: "scandinavia",
         name: "Copenhagen",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 6
     },
     {
@@ -101,6 +107,7 @@ export const catalog = [
         region: "west",
         name: "Dublin",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 5
     },
     {
@@ -110,6 +117,7 @@ export const catalog = [
         region: "scandinavia",
         name: "Helsinki",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 8
     },
     {
@@ -119,6 +127,7 @@ export const catalog = [
         region: "west",
         name: "Lisbon",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 5
     },
     {
@@ -128,6 +137,7 @@ export const catalog = [
         region: "west",
         name: "London",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 7
     },
     {
@@ -137,6 +147,7 @@ export const catalog = [
         region: "west",
         name: "Madrid",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 6
     },
     {
@@ -146,6 +157,7 @@ export const catalog = [
         region: "west",
         name: "Milan",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 7
     },
     {
@@ -155,6 +167,7 @@ export const catalog = [
         region: "west",
         name: "Munich",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 7
     },
     {
@@ -164,6 +177,7 @@ export const catalog = [
         region: "west",
         name: "Paris",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 7
     },
     {
@@ -173,6 +187,7 @@ export const catalog = [
         region: "east",
         name: "Prague",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 5
     },
     {
@@ -182,6 +197,7 @@ export const catalog = [
         region: "west",
         name: "Rome",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 6
     },
     {
@@ -191,6 +207,7 @@ export const catalog = [
         region: "scandinavia",
         name: "Stockholm",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 8
     },
     {
@@ -200,6 +217,7 @@ export const catalog = [
         region: "west",
         name: "Vienna",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 8
     },
     {
@@ -209,6 +227,7 @@ export const catalog = [
         region: "south",
         name: "Zagreb",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 5
     },
     {
@@ -218,6 +237,7 @@ export const catalog = [
         region: "west",
         name: "Zürich",
         desc: "Lorem ipsum dolor sit amet",
+        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 8
     },
 ]

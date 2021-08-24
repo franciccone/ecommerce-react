@@ -27,7 +27,7 @@ export const ItemCount = ({ stock, initial, onAdd }) => {
     };
 
     return (
-            <div>
+            <div className="button-box">
                 <button className="minus-button" onClick={decreaseCount} disabled={isDisabled.decrease}>
                     -
                 </button>
@@ -35,8 +35,7 @@ export const ItemCount = ({ stock, initial, onAdd }) => {
                 <button className="plus-button" onClick={addCount} disabled={isDisabled.add}>
                     +
                 </button>
-                <br />
-                <button className="add-button" onClick={onAdd}>Agregar al carrito</button>
+                <button className="add-button" onClick={onAdd}>Add to cart</button>
             </div>
         );
 };
