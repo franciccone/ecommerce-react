@@ -1,22 +1,22 @@
 import React from 'react';
 import CartWidget from '../CartWidget/CartWidget';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 
 const NavBar = () => {
     return (
 
             <header className="navbar">
-                <Link to={"/"}><h1 className="logo">LOGO</h1></Link>
+                <NavLink to={"/"}><h1 className="logo">LOGO</h1></NavLink>
 
                 <nav className="menu">
-                    <Link to={"/"} className="menu-link">Home</Link>
-                    <Link to={"/region"} className="menu-link">Regions</Link>
-                    <Link to={"/region/east"} className="menu-link">East</Link>
-                    <Link to={"/region/scandinavia"} className="menu-link">Scandinavia</Link>
-                    <Link to={"/region/south"} className="menu-link">South</Link>
-                    <Link to={"/region/west"} className="menu-link">West</Link>
-                    <Link to={"/about"} className="menu-link">About Us</Link>
+                    <NavLink to={"/"} className="menu-link">Home</NavLink>
+                    <NavLink to={"/region"} className="menu-link" exact activeClassName="active-class">Regions</NavLink>
+                    <NavLink to={"/region/east"} className="menu-link" exact activeClassName="active-class">East</NavLink>
+                    <NavLink to={"/region/scandinavia"} className="menu-link" exact activeClassName="active-class">Scandinavia</NavLink>
+                    <NavLink to={"/region/south"} className="menu-link" exact activeClassName="active-class">South</NavLink>
+                    <NavLink to={"/region/west"} className="menu-link" exact activeClassName="active-class">West</NavLink>
+                    <NavLink to={"/about"} className="menu-link" exact activeClassName="active-class">About Us</NavLink>
                 </nav>
 
                 <CartWidget />

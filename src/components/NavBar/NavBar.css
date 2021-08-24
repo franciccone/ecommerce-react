@@ -17,3 +17,7 @@
 .menu-link:hover {
     color: #1D3557;
 }
+
+.active-class {
+    color: #1D3557;
+}
