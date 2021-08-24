@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './ItemDetail.css';
 
-export const ItemDetail = ({region, id, name, desc, img, price}) => {
+export const ItemDetail = ({region, name, desc, picture, price}) => {
 
     return (
         <div className="city-container">
-            <img className="city-img" src={img} alt={name}/>
+            <img className="city-img" src={picture} alt={name}/>
             <div className="city-box">
                 <h2 className="city-name">{name}</h2>
                 <p className="city-price">Price: {price} €</p>

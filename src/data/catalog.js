@@ -18,12 +18,32 @@ import stockholm from "../img/stockholm.jpg"
 import vienna from "../img/vienna.jpg"
 import zagreb from "../img/zagreb.jpg"
 import zurich from "../img/zurich.jpg"
+import amsterdamPreview from "../img/preview-amsterdam.jpg"
+import athensPreview from "../img/preview-athens.jpg"
+import barcelonaPreview from "../img/preview-barcelona.jpg"
+import berlinPreview from "../img/preview-berlin.jpg"
+import budapestPreview from "../img/preview-budapest.jpg"
+import copenhagenPreview from "../img/preview-copenhagen.jpg"
+import dublinPreview from "../img/preview-dublin.jpg"
+import helsinkiPreview from "../img/preview-helsinki.jpg"
+import lisbonPreview from "../img/preview-lisbon.jpg"
+import londonPreview from "../img/preview-london.jpg"
+import madridPreview from "../img/preview-madrid.jpg"
+import milanPreview from "../img/preview-milan.jpg"
+import munichPreview from "../img/preview-munich.jpg"
+import parisPreview from "../img/preview-paris.jpg"
+import praguePreview from "../img/preview-prague.jpg"
+import romePreview from "../img/preview-rome.jpg"
+import stockholmPreview from "../img/preview-stockholm.jpg"
+import viennaPreview from "../img/preview-vienna.jpg"
+import zagrebPreview from "../img/preview-zagreb.jpg"
+import zurichPreview from "../img/preview-zurich.jpg"
 
 export const catalog = [
     {
         id: 1,
         img: amsterdam,
-        picture: amsterdam,
+        picture: amsterdamPreview,
         region: "West",
         name: "Amsterdam",
         desc: "Lorem ipsum dolor sit amet",
@@ -32,7 +52,7 @@ export const catalog = [
     {
         id: 2,
         img: athens,
-        picture: athens,
+        picture: athensPreview,
         region: "south",
         name: "Athens",
         desc: "Lorem ipsum dolor sit amet",
@@ -41,7 +61,7 @@ export const catalog = [
     {
         id: 3,
         img: barcelona,
-        picture: barcelona,
+        picture: barcelonaPreview,
         region: "west",
         name: "Barcelona",
         desc: "Lorem ipsum dolor sit amet",
@@ -50,7 +70,7 @@ export const catalog = [
     {
         id: 4,
         img: berlin,
-        picture: berlin,
+        picture: berlinPreview,
         region: "west",
         name: "Berlin",
         desc: "Lorem ipsum dolor sit amet",
@@ -59,7 +79,7 @@ export const catalog = [
     {
         id: 5,
         img: budapest,
-        picture: budapest,
+        picture: budapestPreview,
         region: "east",
         name: "Budapest",
         desc: "Lorem ipsum dolor sit amet",
@@ -68,7 +88,7 @@ export const catalog = [
     {
         id: 6,
         img: copenhagen,
-        picture: copenhagen,
+        picture: copenhagenPreview,
         region: "scandinavia",
         name: "Copenhagen",
         desc: "Lorem ipsum dolor sit amet",
@@ -77,7 +97,7 @@ export const catalog = [
     {
         id: 7,
         img: dublin,
-        picture: dublin,
+        picture: dublinPreview,
         region: "west",
         name: "Dublin",
         desc: "Lorem ipsum dolor sit amet",
@@ -86,7 +106,7 @@ export const catalog = [
     {
         id: 8,
         img: helsinki,
-        picture: helsinki,
+        picture: helsinkiPreview,
         region: "scandinavia",
         name: "Helsinki",
         desc: "Lorem ipsum dolor sit amet",
@@ -95,7 +115,7 @@ export const catalog = [
     {
         id: 9,
         img: lisbon,
-        picture: lisbon,
+        picture: lisbonPreview,
         region: "west",
         name: "Lisbon",
         desc: "Lorem ipsum dolor sit amet",
@@ -104,7 +124,7 @@ export const catalog = [
     {
         id: 10,
         img: london,
-        picture: london,
+        picture: londonPreview,
         region: "west",
         name: "London",
         desc: "Lorem ipsum dolor sit amet",
@@ -113,7 +133,7 @@ export const catalog = [
     {
         id: 11,
         img: madrid,
-        picture: madrid,
+        picture: madridPreview,
         region: "west",
         name: "Madrid",
         desc: "Lorem ipsum dolor sit amet",
@@ -122,7 +142,7 @@ export const catalog = [
     {
         id: 12,
         img: milan,
-        picture: milan,
+        picture: milanPreview,
         region: "west",
         name: "Milan",
         desc: "Lorem ipsum dolor sit amet",
@@ -131,7 +151,7 @@ export const catalog = [
     {
         id: 13,
         img: munich,
-        picture: munich,
+        picture: munichPreview,
         region: "west",
         name: "Munich",
         desc: "Lorem ipsum dolor sit amet",
@@ -140,7 +160,7 @@ export const catalog = [
     {
         id: 14,
         img: paris,
-        picture: paris,
+        picture: parisPreview,
         region: "west",
         name: "Paris",
         desc: "Lorem ipsum dolor sit amet",
@@ -149,7 +169,7 @@ export const catalog = [
     {
         id: 15,
         img: prague,
-        picture: prague,
+        picture: praguePreview,
         region: "east",
         name: "Prague",
         desc: "Lorem ipsum dolor sit amet",
@@ -158,7 +178,7 @@ export const catalog = [
     {
         id: 16,
         img: rome,
-        picture: rome,
+        picture: romePreview,
         region: "west",
         name: "Rome",
         desc: "Lorem ipsum dolor sit amet",
@@ -167,7 +187,7 @@ export const catalog = [
     {
         id: 17,
         img: stockholm,
-        picture: stockholm,
+        picture: stockholmPreview,
         region: "scandinavia",
         name: "Stockholm",
         desc: "Lorem ipsum dolor sit amet",
@@ -176,7 +196,7 @@ export const catalog = [
     {
         id: 18,
         img: vienna,
-        picture: vienna,
+        picture: viennaPreview,
         region: "west",
         name: "Vienna",
         desc: "Lorem ipsum dolor sit amet",
@@ -185,7 +205,7 @@ export const catalog = [
     {
         id: 19,
         img: zagreb,
-        picture: zagreb,
+        picture: zagrebPreview,
         region: "south",
         name: "Zagreb",
         desc: "Lorem ipsum dolor sit amet",
@@ -194,7 +214,7 @@ export const catalog = [
     {
         id: 20,
         img: zurich,
-        picture: zurich,
+        picture: zurichPreview,
         region: "west",
         name: "Zürich",
         desc: "Lorem ipsum dolor sit amet",
