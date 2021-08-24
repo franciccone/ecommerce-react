@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Umbrella Tourism
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This App, called Umbrella Tourism, is an e-commerce with tourism guides across all major European cities.
+
+## Available Scripts
+
+Here you can find:
+
+- Filter by categories: product filters are generated, taking the categories from the database.
+- Product list views: an overview of products with photo and minimum details.
+- Detail view: view with all product details and the option to add a quantity of the product.
+- Stock control: checks that users cannot add more items to the cart than there are available; and checks the actual stock at the time of purchase.
 
 ## Available Scripts
 
@@ -39,32 +48,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Bootstrap to give format to the application.
+- React Router Dom for navigation.
+- React Icons for the icons used.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Links
 
-### Code Splitting
+Repository: [See](https://github.com/franciccone/ecommerce-react)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Francisco Ciccone](https://github.com/franciccone)
