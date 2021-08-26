@@ -51,7 +51,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Dependencies
 
 - Bootstrap to give format to the application.
-- SASS to add styles.
+- SASS to add styles and overwrite some Bootstrap styles.
 - React Router Dom for navigation.
 - React Icons to add icons.
 
