@@ -1,0 +1,31 @@
+// Custom.scss
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+// Default variable overrides
+$body-bg: #F1FAEE;
+$primary: #E63946;
+$danger: #1D3557;
+$font-family-base: 'Montserrat', sans-serif;
+$navbar-light-color: #E63946;
+$navbar-light-hover-color: #1D3557;
+$navbar-light-active-color: #1D3557;
+$dropdown-bg: #F1FAEE;
+$dropdown-link-color: #E63946;
+$dropdown-link-hover-color: #1D3557;
+
+// Imports
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Any other additional custom code
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+

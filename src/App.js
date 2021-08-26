@@ -4,8 +4,8 @@ import BootstrapCarousel from './components/BootstrapCarousel/BootstrapCarousel'
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import About from './components/About/About';
-import './styles/styles.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './scss/custom.scss';
+import './scss/styles.scss';
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 function App() {
