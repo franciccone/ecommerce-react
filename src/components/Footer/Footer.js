@@ -5,7 +5,7 @@ import { SiFacebook, SiInstagram, SiTwitter, SiYoutube } from 'react-icons/si';
 const Footer = () => {
     return (
 
-            <footer className="footer container">
+            <footer className="footer container-fluid">
 
                 <ul className="social-media">
                     <a className="sm-icon" href="https://github.com/franciccone"><SiFacebook/></a>

@@ -27,7 +27,7 @@ export const ItemCount = ({ stock, initial, onAdd }) => {
     };
 
     return (
-            <div className="button-box">
+            <div className="button-box container-fluid">
                 <button className="minus-button" onClick={decreaseCount} disabled={isDisabled.decrease}>
                     -
                 </button>

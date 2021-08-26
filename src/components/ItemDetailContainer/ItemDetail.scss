@@ -47,6 +47,8 @@
     align-items: center;
 }
 
+
+
 .city-price {
     display: flex;
     justify-content: center;
@@ -81,4 +83,20 @@
 .city-btn:hover {
     color: #E63946;
     background-color: #F1FAEE;
+}
+
+.back-btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .city-ticket-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
