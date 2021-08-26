@@ -1,10 +1,11 @@
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
-import Slider from './components/Slider/Slider';
+import BootstrapCarousel from './components/BootstrapCarousel/BootstrapCarousel';
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import About from './components/About/About';
 import './styles/styles.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
 
         <Switch>
           <Route exact path="/">
-            <Slider/>
+            <div className="App">
+              <BootstrapCarousel/>
+            </div>
             <ItemListContainer/>
           </Route>
 
