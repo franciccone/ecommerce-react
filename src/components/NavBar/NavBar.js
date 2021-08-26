@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
-import './NavBar.css';
+import './NavBar.scss';
 
 const NavBar = () => {
     return (
@@ -32,6 +32,6 @@ const NavBar = () => {
 
     );
 
-}
+};
 
 export default NavBar;

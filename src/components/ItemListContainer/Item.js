@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
-import './Item.css';
+import './Item.scss';
 
 export const Item = ( {id, img, name, desc, price} ) => {
     return (
@@ -14,4 +14,4 @@ export const Item = ( {id, img, name, desc, price} ) => {
                 </div>
             </div>
     )
-}
+};

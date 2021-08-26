@@ -4,7 +4,7 @@ import BootstrapCarousel from './components/BootstrapCarousel/BootstrapCarousel'
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import About from './components/About/About';
-import './styles/styles.css';
+import './styles/styles.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
@@ -42,6 +42,6 @@ function App() {
       </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;

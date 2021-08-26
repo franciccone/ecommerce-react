@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { requestData } from '../../helpers/requestData';
-import { ItemDetail } from './ItemDetail'
-import './ItemDetailContainer.css';
+import { ItemDetail } from './ItemDetail';
+import './ItemDetailContainer.scss';
 
 export const ItemDetailContainer = () => {
 
@@ -30,6 +30,6 @@ export const ItemDetailContainer = () => {
             }
         </div>
     )
-}
+};
 
 export default ItemDetailContainer;

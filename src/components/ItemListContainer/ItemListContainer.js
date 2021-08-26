@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { requestData } from "../../helpers/requestData";
 import { ItemList } from "./ItemList";
-import './ItemListContainer.css';
+import './ItemListContainer.scss';
 
 const ItemListContainer = () => {
 
@@ -40,6 +40,6 @@ const ItemListContainer = () => {
         </>
     );
 
-}
+};
 
 export default ItemListContainer;

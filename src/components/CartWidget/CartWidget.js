@@ -1,5 +1,5 @@
 import React from 'react';
-import './CartWidget.css';
+import './CartWidget.scss';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 const CartWidget = () => {
@@ -11,6 +11,6 @@ const CartWidget = () => {
         </div>
     );
 
-}
+};
 
 export default CartWidget;

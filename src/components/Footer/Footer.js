@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './Footer.scss';
 import { SiFacebook, SiInstagram, SiTwitter, SiYoutube } from 'react-icons/si';
 
 const Footer = () => {
@@ -18,6 +18,6 @@ const Footer = () => {
 
     );
 
-}
+};
 
 export default Footer;

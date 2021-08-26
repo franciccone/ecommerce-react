@@ -1,7 +1,6 @@
 import React from 'react';
 import { Item } from './Item';
-import CardColumns from 'react-bootstrap/CardColumns';
-import './ItemList.css';
+import './ItemList.scss';
 
 export const ItemList = ( {cities = []} ) => {
 
@@ -17,6 +16,6 @@ export const ItemList = ( {cities = []} ) => {
         </section>
     )
 
-}
+};
 
 export default ItemList;
