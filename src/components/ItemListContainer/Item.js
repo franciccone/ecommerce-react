@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import './Item.css';
 
 export const Item = ( {id, img, name, desc, price} ) => {

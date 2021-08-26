@@ -16,9 +16,7 @@ function App() {
 
         <Switch>
           <Route exact path="/">
-            <div className="App">
-              <BootstrapCarousel/>
-            </div>
+            <BootstrapCarousel/>
             <ItemListContainer/>
           </Route>
 

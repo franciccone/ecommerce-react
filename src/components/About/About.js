@@ -5,7 +5,7 @@ import ImgAbout from "../../img/guides.jpg";
 export const About = ( ) => {
 
     return (
-        <section className="about-container">
+        <section className="about-container container">
             <img className="about-img" src={ImgAbout} alt="Tourist guides"/>
             <h2 className="about-title">Changing the way of making tourism</h2>
             <article className="about-text">

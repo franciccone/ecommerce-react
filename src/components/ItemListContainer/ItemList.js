@@ -11,7 +11,7 @@ export const ItemList = ( {cities = []} ) => {
             <hr/>
             <div className="row">
 
-                        {cities.map( (city) => <Item key={city.id} {...city}/> )}
+                {cities.map( (city) => <Item key={city.id} {...city}/> )}
 
             </div>
         </section>

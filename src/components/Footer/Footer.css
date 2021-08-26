@@ -3,10 +3,19 @@
 .footer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #E63946;
     margin: 2em 0;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 0 !important;
 }
 
 .sm-icon {
