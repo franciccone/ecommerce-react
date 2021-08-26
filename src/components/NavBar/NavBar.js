@@ -12,7 +12,7 @@ const NavBar = () => {
 
             <Navbar expand="lg">
                 <Container>
-                    <Navbar.Brand as={Link} to={"/"}>LOGO</Navbar.Brand>
+                    <Navbar.Brand as={Link} to={"/"}>UMBRELLA</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
