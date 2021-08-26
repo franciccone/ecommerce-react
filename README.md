@@ -53,7 +53,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 - Bootstrap to give format to the application.
 - SASS to add styles.
 - React Router Dom for navigation.
-- React Icons for the icons used.
+- React Icons to add icons.
 
 ## Links
 
