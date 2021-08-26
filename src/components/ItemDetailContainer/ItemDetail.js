@@ -7,9 +7,9 @@ import { RiMoneyDollarBoxLine } from 'react-icons/ri';
 export const ItemDetail = ({region, name, bigdesc, picture, price}) => {
 
     return (
-        <section className="city-container container m-4">
+        <section className="city-container container-fluid">
             <img className="city-img" src={picture} alt={name}/>
-            <div className="city-box sm-1">
+            <div className="city-box container-fluid">
                 <h2 className="city-name">{name}</h2>
                 <div className="city-ticket-box">
                 <p className="city-price"><RiMoneyDollarBoxLine className="icon-price"/> {price} €</p>
