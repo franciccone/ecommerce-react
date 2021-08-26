@@ -10,7 +10,7 @@ import './NavBar.scss';
 const NavBar = () => {
     return (
 
-            <Navbar bg="light" expand="lg">
+            <Navbar expand="lg">
                 <Container>
                     <Navbar.Brand as={Link} to={"/"}>LOGO</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
