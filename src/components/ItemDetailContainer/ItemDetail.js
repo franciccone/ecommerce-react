@@ -1,16 +1,19 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ItemCount } from '../ItemCount/ItemCount';
+import { CartContext } from '../../context/CartContext'
 import './ItemDetail.scss';
 import { RiMoneyDollarBoxLine } from 'react-icons/ri';
 
 export const ItemDetail = ({region, id, name, desc, bigdesc, img, picture, price, stock}) => {
 
+    const {addToCart, isInCart} = useContext(CartContext);
+
     const [quantity, setQuantity] = useState(1);
 
-    const addToCart = () => {
-        console.log({
-            id, name, region, desc, img, price, quantity
+    const handleAdd = () => {
+        addToCart ({
+                id, name, region, desc, img, price, quantity
         });
     };
 
@@ -21,7 +24,13 @@ export const ItemDetail = ({region, id, name, desc, bigdesc, img, picture, price
                 <h2 className="city-name">{name}</h2>
                 <div className="city-ticket-box">
                     <p className="city-price"><RiMoneyDollarBoxLine className="icon-price"/> {price}</p>
-                    <ItemCount max={stock} quantity={quantity} setQuantity={setQuantity} add={addToCart}/>
+                    <ItemCount
+                        max={stock}
+                        quantity={quantity}
+                        setQuantity={setQuantity}
+                        add={handleAdd}
+                        added={isInCart(id)}
+                    />
                 </div>
                 <p className="city-desc">{bigdesc}</p>
                 <div className="back-btn-box">

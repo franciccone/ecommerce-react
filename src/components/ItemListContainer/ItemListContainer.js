@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { requestData } from "../../helpers/requestData";
 import { ItemList } from "./ItemList";
+import { UIContext } from "../../context/UIContext";
 import './ItemListContainer.scss';
 
 const ItemListContainer = () => {
 
-    const { regionId } = useParams()
-
-    const [data, setData] = useState([])
-    const [loading, setLoading] = useState(false)
+    const {loading, setLoading} = useContext(UIContext);
+    const { regionId } = useParams();
+    const [data, setData] = useState([]);
 
     
     useEffect( () => {
@@ -26,7 +26,7 @@ const ItemListContainer = () => {
             })
             .catch(err => console.log(err))
             .finally(() => {setLoading(false)})
-    }, [regionId])
+    }, [regionId]);
     
     return (
         <>
