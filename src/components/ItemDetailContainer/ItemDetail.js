@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ItemCount } from '../ItemCount/ItemCount';
 import './ItemDetail.scss';
 import { RiMoneyDollarBoxLine } from 'react-icons/ri';
 
-export const ItemDetail = ({region, name, bigdesc, picture, price}) => {
+export const ItemDetail = ({region, id, name, desc, bigdesc, img, picture, price, stock}) => {
+
+    const [quantity, setQuantity] = useState(1);
+
+    const addToCart = () => {
+        console.log({
+            id, name, region, desc, img, price, quantity
+        });
+    };
 
     return (
         <section className="container-fluid">
@@ -13,7 +21,7 @@ export const ItemDetail = ({region, name, bigdesc, picture, price}) => {
                 <h2 className="city-name">{name}</h2>
                 <div className="city-ticket-box">
                     <p className="city-price"><RiMoneyDollarBoxLine className="icon-price"/> {price}</p>
-                    <ItemCount stock={100} initial={1} onAdd={() => console.log('BUY')}/>
+                    <ItemCount max={stock} quantity={quantity} setQuantity={setQuantity} add={addToCart}/>
                 </div>
                 <p className="city-desc">{bigdesc}</p>
                 <div className="back-btn-box">

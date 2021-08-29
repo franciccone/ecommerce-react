@@ -1,41 +1,28 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './ItemCount.scss';
 
-export const ItemCount = ({ stock, initial, onAdd }) => {
+export const ItemCount = ({max, quantity, setQuantity, add}) => {
 
-    const [count, setCount] = useState(initial);
-
-    //estado para deshabilitar los botones del ItemCount
-    const [isDisabled, setIsDisabled] = useState({ decrease: false, add: false });
-
-    //uso de useEffect para habilitar/deshabilitar los botones de + y -
-    useEffect(() => {
-        count === initial && setIsDisabled({ ...isDisabled, decrease: true });
-        count === stock && setIsDisabled({ ...isDisabled, add: true });
-
-        count > initial &&
-        count < stock &&
-        setIsDisabled({ decrease: false, add: false });
-    }, [count]);
-
-    const decreaseCount = () => {
-        count > initial && setCount(count - 1);
+    const handleAdd = () => {
+        if (quantity < max) {
+            setQuantity(quantity + 1)
+        };
     };
 
-    const addCount = () => {
-        count < stock && setCount(count + 1);
+    const handleRest = () => {
+        if (quantity > 1) {
+            setQuantity(quantity - 1)
+        };
     };
 
     return (
+        <>
             <div className="button-box container-fluid">
-                <button className="minus-button" onClick={decreaseCount} disabled={isDisabled.decrease}>
-                    -
-                </button>
-                    {count}
-                <button className="plus-button" onClick={addCount} disabled={isDisabled.add}>
-                    +
-                </button>
-                <button className="add-button" onClick={onAdd}>Add to cart</button>
+                <button className="minus-button" onClick={handleRest}>-</button>
+                <p>{quantity}</p>
+                <button className="plus-button" onClick={handleAdd}>+</button>
+                <button className="add-button" onClick={add}>Add to cart</button>
             </div>
-        );
+        </>
+    );
 };

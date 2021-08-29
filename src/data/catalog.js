@@ -48,7 +48,8 @@ export const catalog = [
         name: "Amsterdam",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 6
+        price: 6,
+        stock: 20
     },
     {
         id: 2,
@@ -58,7 +59,8 @@ export const catalog = [
         name: "Athens",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 5
+        price: 5,
+        stock: 20
     },
     {
         id: 3,
@@ -68,7 +70,8 @@ export const catalog = [
         name: "Barcelona",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 6
+        price: 6,
+        stock: 20
     },
     {
         id: 4,
@@ -78,7 +81,8 @@ export const catalog = [
         name: "Berlin",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 5
+        price: 5,
+        stock: 20
     },
     {
         id: 5,
@@ -88,7 +92,8 @@ export const catalog = [
         name: "Budapest",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 5
+        price: 5,
+        stock: 20
     },
     {
         id: 6,
@@ -98,7 +103,8 @@ export const catalog = [
         name: "Copenhagen",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 6
+        price: 6,
+        stock: 15
     },
     {
         id: 7,
@@ -108,7 +114,8 @@ export const catalog = [
         name: "Dublin",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 5
+        price: 5,
+        stock: 15
     },
     {
         id: 8,
@@ -118,7 +125,8 @@ export const catalog = [
         name: "Helsinki",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 8
+        price: 8,
+        stock: 15
     },
     {
         id: 9,
@@ -128,7 +136,8 @@ export const catalog = [
         name: "Lisbon",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 5
+        price: 5,
+        stock: 20
     },
     {
         id: 10,
@@ -138,7 +147,8 @@ export const catalog = [
         name: "London",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 7
+        price: 7,
+        stock: 20
     },
     {
         id: 11,
@@ -148,7 +158,8 @@ export const catalog = [
         name: "Madrid",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 6
+        price: 6,
+        stock: 20
     },
     {
         id: 12,
@@ -158,7 +169,8 @@ export const catalog = [
         name: "Milan",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 7
+        price: 7,
+        stock: 15
     },
     {
         id: 13,
@@ -168,7 +180,8 @@ export const catalog = [
         name: "Munich",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 7
+        price: 7,
+        stock: 20
     },
     {
         id: 14,
@@ -178,7 +191,8 @@ export const catalog = [
         name: "Paris",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 7
+        price: 7,
+        stock: 20
     },
     {
         id: 15,
@@ -188,7 +202,8 @@ export const catalog = [
         name: "Prague",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 5
+        price: 5,
+        stock: 20
     },
     {
         id: 16,
@@ -198,7 +213,8 @@ export const catalog = [
         name: "Rome",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 6
+        price: 6,
+        stock: 20
     },
     {
         id: 17,
@@ -208,7 +224,8 @@ export const catalog = [
         name: "Stockholm",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 8
+        price: 8,
+        stock: 15
     },
     {
         id: 18,
@@ -218,7 +235,8 @@ export const catalog = [
         name: "Vienna",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 8
+        price: 8,
+        stock: 15
     },
     {
         id: 19,
@@ -228,7 +246,8 @@ export const catalog = [
         name: "Zagreb",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 5
+        price: 5,
+        stock: 15
     },
     {
         id: 20,
@@ -238,6 +257,7 @@ export const catalog = [
         name: "Zürich",
         desc: "Lorem ipsum dolor sit amet",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        price: 8
+        price: 8,
+        stock: 15
     },
 ];
