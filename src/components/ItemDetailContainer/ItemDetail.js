@@ -23,7 +23,7 @@ export const ItemDetail = ({region, id, name, desc, bigdesc, img, picture, price
             <div className="city-box container-fluid">
                 <h2 className="city-name">{name}</h2>
                 <div className="city-ticket-box">
-                    <p className="city-price"><RiMoneyDollarBoxLine className="icon-price"/> {price}</p>
+                    <p className="city-price"><RiMoneyDollarBoxLine className="icon-price"/>{price}</p>
                     <ItemCount
                         max={stock}
                         quantity={quantity}

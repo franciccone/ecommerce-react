@@ -8,15 +8,15 @@ export const CartScreen = () => {
     const {cart, deleteFromCart, emptyCart} = useContext(CartContext);
 
     return (
-        <section>
-            <h1>Your buy</h1>
+        <section className="cart-screen-container">
+            <h1 className="cart-screen-title">Your buy</h1>
 
             {cart.map(city => (
-                <div key={city.id}>
-                    <h3>{city.name}</h3>
-                    <p>Quantity: {city.quantity}</p>
-                    <p>Price: {city.price * city.quantity}</p>
-                    <BsFillTrashFill onClick={() => deleteFromCart(city.id)}/>
+                <div className="cart-screen-box" key={city.id}>
+                    <h3 className="cart-screen-name">{city.name}</h3>
+                    <p className="cart-screen-text">Quantity: {city.quantity}</p>
+                    <p className="cart-screen-text">Price: {city.price * city.quantity}</p>
+                    <BsFillTrashFill onClick={() => deleteFromCart(city.id)} className="cart-screen-trash"/>
                 </div>
             ))}
 
