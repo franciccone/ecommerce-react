@@ -1,11 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
 .cart-screen-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cart-screen-box {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 calc(25% - 1em);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px #E63946 solid;
+    border-radius: 15px;
+    margin: 0.8em 0.5em;
+    padding: 1.5em;
+    overflow: hidden;
+}
+
+.cart-screen-box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-screen-img {
+    width: 25%;
+    height: auto;
+    border-radius: 15px;
+    text-align: center;
 }
 
 .cart-screen-title {
     text-transform: uppercase;
+}
+
+.card-screen-img, .cart-screen-name, .cart-screen-text, .cart-screen-trash {
+    margin: 0.35em 0.7em 0.7em 0.35em;
+}
+
+.cart-screen-trash {
+    font-size: 1.5rem;
+    cursor: pointer;
 }

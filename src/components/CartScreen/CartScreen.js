@@ -13,9 +13,10 @@ export const CartScreen = () => {
 
             {cart.map(city => (
                 <div className="cart-screen-box" key={city.id}>
+                    <img src={city.img} alt={city.name} className="card-screen-img"/>
                     <h3 className="cart-screen-name">{city.name}</h3>
                     <p className="cart-screen-text">Quantity: {city.quantity}</p>
-                    <p className="cart-screen-text">Price: {city.price * city.quantity}</p>
+                    <p className="cart-screen-text">Price: {city.price * city.quantity} €</p>
                     <BsFillTrashFill onClick={() => deleteFromCart(city.id)} className="cart-screen-trash"/>
                 </div>
             ))}
