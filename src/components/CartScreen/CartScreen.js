@@ -23,7 +23,7 @@ export const CartScreen = () => {
 
             <hr/>
 
-            <button className="btn btn-danger" onClick={emptyCart}>Empty cart</button>
+            <button className="btn btn-danger btn-empty" onClick={emptyCart}>Empty cart</button>
         </section>
     );
 };
