@@ -13,23 +13,23 @@ export const CartProvider = ({children}) => {
         setCart([
             ...cart,
             city
-        ])
+        ]);
     };
 
     const deleteFromCart = (id) => {
-        setCart( cart.filter(city => city.id !== id) )
+        setCart( cart.filter(city => city.id !== id) );
     };
 
     const cartQuantity = () => {
-        return cart.reduce((acc, city) => acc + city.quantity, 0)
+        return cart.reduce((acc, city) => acc + city.quantity, 0);
     };
 
     const emptyCart = () => {
-        setCart([])
+        setCart([]);
     };
 
     const isInCart = (id) => {
-        return cart.some(el => el.id == id)
+        return cart.some(el => el.id == id);
     };
 
     return (

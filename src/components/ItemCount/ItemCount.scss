@@ -6,7 +6,12 @@
     align-items: center;
 }
 
-.minus-button, .plus-button, .add-button {
+.card-btn:hover {
+    color: #E63946;
+    background-color: #F1FAEE;
+}
+
+.finish-btn, .minus-button, .plus-button, .add-button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -19,7 +24,7 @@
     cursor: pointer;
 }
 
-.minus-button:hover, .plus-button:hover, .add-button:hover {
+.finish-btn, .minus-button:hover, .plus-button:hover, .add-button:hover {
     color: #E63946;
     background-color: #F1FAEE;
 }
