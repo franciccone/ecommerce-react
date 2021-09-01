@@ -21,7 +21,7 @@ export const ItemCount = ({max, quantity, setQuantity, add, added}) => {
             <div className="button-box container-fluid">
                 {
                     added 
-                        ? <Link to="/cart" className="finish-btn">Finish the buy</Link>
+                        ? <Link to="/cart" className="finish-btn">Finish the purchease</Link>
                         :
                     
                         <div className="button-box container-fluid">
