@@ -101,8 +101,8 @@ export const catalog = [
         picture: copenhagenPreview,
         region: "scandinavia",
         name: "Copenhagen",
-        desc: "Lorem ipsum dolor sit amet",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        desc: "Scandinavia coolest place",
+        bigdesc: "A burgeoning beer culture, some of the world’s best restaurants, royal history, and dedicated pedestrian- and cycle-friendly zones all help make Copenhagen a capital of Nordic cool. Head to Nørrebro and walk Guldbergsgade, one of the city's most exciting streets: You can easily fill an entire day amid this tiny enclave's tightly crammed, glass-fronted restaurants and one-of-a-kind shops.",
         price: 6,
         stock: 15
     },
@@ -134,8 +134,8 @@ export const catalog = [
         picture: lisbonPreview,
         region: "west",
         name: "Lisbon",
-        desc: "Lorem ipsum dolor sit amet",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        desc: "An underrated gem",
+        bigdesc: "Lisbon has long been one of the most underrated cities in Europe, but it looks like the secret is finally starting to get out—take in the coastal views, historic architecture, and pastéis de nata and you'll see what we mean.",
         price: 5,
         stock: 20
     },
@@ -233,8 +233,8 @@ export const catalog = [
         picture: viennaPreview,
         region: "west",
         name: "Vienna",
-        desc: "Lorem ipsum dolor sit amet",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        desc: "Royal exquisite",
+        bigdesc: "Artistic, exquisite, and largely shaped by its musical and intellectual foundations, Austria’s capital and largest city is packed with culture. It's the kind of city where you could happily visit four museums in a day and still have more to see, or join fellow culture vultures for an outdoor simulcast of the latest opera—in the dead of winter.",
         price: 8,
         stock: 15
     },
