@@ -46,8 +46,8 @@ export const catalog = [
         picture: amsterdamPreview,
         region: "West",
         name: "Amsterdam",
-        desc: "Canals and bikes to explore the culture",
-        bigdesc: "Windmills, cycling, Van Gogh, and canals are all part of Amsterdam’s storied charm, but there’s more to the Dutch capital than its most apparent associations. For a taste of the “new” Amsterdam, grab a drink at Droog, a renovated 17th-century hotel with just one room; float in a weightless state in the saltwater pods at Koan Float; or try innovative takes on seasonal fruits and vegetables at De Kas, a restaurant housed in the former Amsterdam City Greenery.",
+        desc: "Canals and bikes to explore",
+        bigdesc: "Windmills, cycling, Van Gogh, and canals are all part of Amsterdam’s storied charm, but there’s more to the Dutch capital than its most apparent associations. For a taste of the 'new' Amsterdam, grab a drink at Droog, a renovated 17th-century hotel with just one room; float in a weightless state in the saltwater pods at Koan Float; or try innovative takes on seasonal fruits and vegetables at De Kas, a restaurant housed in the former Amsterdam City Greenery.",
         price: 6,
         stock: 20
     },
@@ -68,8 +68,8 @@ export const catalog = [
         picture: barcelonaPreview,
         region: "west",
         name: "Barcelona",
-        desc: "Lorem ipsum dolor sit amet",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        desc: "Suitable for every taste",
+        bigdesc: "From the mountains to the beach, the historic to the contemporary, sunny Barcelona—lucky city that it is—has it all. Brush up on Catalan history at El Born Centre Cultural or take a street art tour of the trendy El Raval district.",
         price: 6,
         stock: 20
     },
@@ -79,7 +79,7 @@ export const catalog = [
         picture: berlinPreview,
         region: "west",
         name: "Berlin",
-        desc: "Lorem ipsum dolor sit amet",
+        desc: "Alternative culture",
         bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         price: 5,
         stock: 20
@@ -156,7 +156,7 @@ export const catalog = [
         picture: madridPreview,
         region: "west",
         name: "Madrid",
-        desc: "Tapas between the different Madrids",
+        desc: "Tapas in Spain's capital",
         bigdesc: "The magic of Madrid is best captured on foot, strolling through the streets, stopping in a museum or sitting for a drink at La Alemana, a historic bar once frequented by Ava Gardner and Ernest Hemingway. For a taste of everyday Spanish life in this vibrant capital city, shop at El Corte Inglés, sample the market culture at Mercado San Antón and the Mercado de San Fernando.",
         price: 6,
         stock: 20
@@ -189,8 +189,8 @@ export const catalog = [
         picture: parisPreview,
         region: "west",
         name: "Paris",
-        desc: "Lorem ipsum dolor sit amet",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        desc: "'La Cité de la Lumiére'",
+        bigdesc: "Paris hardly needs an introduction—proper nouns will suffice: the Louvre, the Eiffel Tower, Notre-Dame, Sacre-Coeur, Musée Rodin, Centre Pompidou, Saint-Germain, the Seine (at dusk). Dine like the French near the Bastille at Chez Paul or stroll among the statues at the elegant Luxembourg Gardens.",
         price: 7,
         stock: 20
     },
