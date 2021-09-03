@@ -167,8 +167,8 @@ export const catalog = [
         picture: milanPreview,
         region: "west",
         name: "Milan",
-        desc: "Lorem ipsum dolor sit amet",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        desc: "Fashion in the big city",
+        bigdesc: "Milan is a stronghold of Italian fashion and the seat of some of the most famous fashion houses in the country. If you want to buy the appropriate outfits in an elegant ambience, you should visit the oldest shopping arcade in the world: the Galleria Vittorio Emanuele II. But Milan has more to offer than just fashion. With its rich history, art and culture and numerous attractions, the city is one of the top travel destinations in Italy.",
         price: 7,
         stock: 15
     },
@@ -178,8 +178,8 @@ export const catalog = [
         picture: munichPreview,
         region: "west",
         name: "Munich",
-        desc: "Lorem ipsum dolor sit amet",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        desc: "Parks and beer",
+        bigdesc: "From lakes, parks and beer gardens to museums, historical sites and massive stores, there's something for everyone who visits Munich. If you seek the finest beers, the most idyllic views, eco-parks, amazing cuisine, mind-blowing art collections or you just wish to sit in the midst of really great people, a trip to the Bavarian capital is all you need.",
         price: 7,
         stock: 20
     },
@@ -200,8 +200,8 @@ export const catalog = [
         picture: praguePreview,
         region: "east",
         name: "Prague",
-        desc: "Lorem ipsum dolor sit amet",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        desc: "A mix for everyone",
+        bigdesc: "The city is practically bursting at the seams for all its art and culture, it is a splendid piece of Gothic architecture, and also a real party city. Lovers of culture, history buffs, couples and revelers bustle in the streets of Prague: an eclectic mix in a eclectic city.",
         price: 5,
         stock: 20
     },
@@ -244,8 +244,8 @@ export const catalog = [
         picture: zagrebPreview,
         region: "south",
         name: "Zagreb",
-        desc: "Lorem ipsum dolor sit amet",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        desc: "Balcan history",
+        bigdesc: "Zagreb is a pedestrian-friendly destination known for its historical sites. If you want to add an extra dose of fun and excitement to your stay, just book a tour of the region. If the weather is nice, spend a relaxing day in the greenery here Jarun. Also take some time for the following popular sights: Ban Jelačić Square and Zagreb Cathedral.",
         price: 5,
         stock: 15
     },
