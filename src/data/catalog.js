@@ -80,7 +80,7 @@ export const catalog = [
         region: "west",
         name: "Berlin",
         desc: "Alternative culture",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        bigdesc: "Berlin is the city of art, artists and museums. In fact, precious artefacts from all over the world are showcased at more than 170 museums here, some of which can be found on the internationally renowned Museum Island. And yet the city somehow remains chilled, with plenty of open spaces where people can go to breathe in some fresh air. With sprawling parks, wooded areas and lakes, Berlin is Germany's greenest city.",
         price: 5,
         stock: 20
     },
@@ -112,8 +112,8 @@ export const catalog = [
         picture: dublinPreview,
         region: "west",
         name: "Dublin",
-        desc: "Lorem ipsum dolor sit amet",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        desc: "Beer and green",
+        bigdesc: "Dublin is where you'll find many of the Republic of Ireland treasures, housed in the city's galleries and museums and is where some of the most important events of this nation were played out, most notably the Easter Uprising of 1916.",
         price: 5,
         stock: 15
     },
@@ -123,8 +123,8 @@ export const catalog = [
         picture: helsinkiPreview,
         region: "scandinavia",
         name: "Helsinki",
-        desc: "Lorem ipsum dolor sit amet",
-        bigdesc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        desc: "Baltic beauty",
+        bigdesc: "Helsinki delights its visitors with impressive coastlines, varied architecture, world-famous design highlights and Nordic specialties. The Finnish capital is small enough to be explored on foot. There are numerous excellent hotels near the city center. Among the many attractions are unique churches, a sea fortress that is a UNESCO World Heritage Site, and traditional marketplaces from the 19th century.",
         price: 8,
         stock: 15
     },
