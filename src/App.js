@@ -3,7 +3,7 @@ import Footer from './components/Footer/Footer';
 import BootstrapCarousel from './components/BootstrapCarousel/BootstrapCarousel';
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
-import About from './components/About/About';
+import AboutContainer from './components/About/AboutContainer';
 import CartProvider from "./context/CartContext";
 import CartScreen from "./components/CartScreen/CartScreen";
 import UIContextProvider from "./context/UIContext";
@@ -30,7 +30,7 @@ function App() {
               </Route>
 
               <Route exact path="/about">
-                <About/>
+                <AboutContainer/>
               </Route>
 
               <Route exact path="/detail/:itemId">
