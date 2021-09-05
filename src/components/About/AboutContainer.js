@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { About } from './About';
+import './AboutContainer.scss';
 
 export const AboutContainer = () => {
 
