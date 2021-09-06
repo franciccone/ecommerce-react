@@ -10,7 +10,6 @@ const ItemListContainer = () => {
     const {loading, setLoading} = useContext(UIContext);
     const { regionId } = useParams();
     const [data, setData] = useState([]);
-
     
     useEffect( () => {
         setLoading(true)
@@ -23,7 +22,6 @@ const ItemListContainer = () => {
             filtered.get()
                 .then((response) => {
                     const data = response.docs.map((doc) => ({...doc.data(), id: doc.id}))
-                    console.log(data)
                     setData(data)
                 })
                 .finally(()=> {
@@ -33,7 +31,6 @@ const ItemListContainer = () => {
             cities.get()
                 .then((response) => {
                     const data = response.docs.map((doc) => ({...doc.data(), id: doc.id}))
-                    console.log(data)
                     setData(data)
                 })
                 .finally(()=> {
@@ -42,21 +39,7 @@ const ItemListContainer = () => {
         }
 
     }, [regionId, setLoading])
-    //     setLoading(true)
 
-    //     requestData()
-    //         .then(res => {
-    //             if (regionId){
-    //                 const filterArray = res.filter(cities => cities.region === regionId)
-    //                 setData(filterArray)
-    //             } else {
-    //                 setData(res)
-    //             }
-    //         })
-    //         .catch(err => console.log(err))
-    //         .finally(() => {setLoading(false)})
-    // }, [regionId]);
-    
     return (
         <>
 
