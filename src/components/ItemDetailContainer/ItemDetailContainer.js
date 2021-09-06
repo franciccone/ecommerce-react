@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { requestData } from '../../helpers/requestData';
 import { ItemDetail } from './ItemDetail';
+import { getFirestore } from '../../firebase/config'
 import './ItemDetailContainer.scss';
 
 export const ItemDetailContainer = () => {
@@ -12,15 +12,20 @@ export const ItemDetailContainer = () => {
     const [loading, setLoading] = useState(false)
 
     useEffect(()=>{
-            setLoading(true)
+        setLoading(true)
 
-            requestData()
-                .then (res => {
-                    setItem(res.find ( city => city.id === parseInt(itemId)) )
-                })
-                .finally(()=> { setLoading(false)})
+        const db = getFirestore()
+        const cities = db.collection('cities')
+        const item = cities.doc(itemId)
 
-    }, [itemId])
+        item.get()
+            .then((doc) => {
+            setItem( {...doc.data(), id: doc.id} )
+            })
+            .finally(()=> { setLoading(false)})
+
+
+    }, [itemId, setLoading])
     
     return (
         <div>
