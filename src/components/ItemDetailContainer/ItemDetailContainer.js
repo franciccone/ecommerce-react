@@ -24,7 +24,6 @@ export const ItemDetailContainer = () => {
             })
             .finally(()=> { setLoading(false)})
 
-
     }, [itemId, setLoading])
     
     return (

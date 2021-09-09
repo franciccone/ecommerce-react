@@ -9,9 +9,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.cart-screen-box {
+.cart-screen-container-full {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 0 1 calc(25% - 1em);
     justify-content: center;
     align-items: center;
@@ -23,8 +23,17 @@
     overflow: hidden;
 }
 
-.cart-screen-box:hover {
+.cart-screen-container-full:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cart-screen-box {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 calc(25% - 1em);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .card-screen-img {
