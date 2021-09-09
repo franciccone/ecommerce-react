@@ -2,7 +2,8 @@ import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { ItemList } from "./ItemList";
 import { UIContext } from "../../context/UIContext";
-import { getFirestore } from '../../firebase/config'
+import { getFirestore } from '../../firebase/config';
+import { Loader } from '../Loader/Loader';
 import './ItemListContainer.scss';
 
 const ItemListContainer = () => {
@@ -45,7 +46,7 @@ const ItemListContainer = () => {
 
             {
                 loading
-                ? <h2 className="loading container">Loading... <div className="loader"></div></h2>
+                ? <Loader/>
                 : <ItemList cities={data}/>
             }
 

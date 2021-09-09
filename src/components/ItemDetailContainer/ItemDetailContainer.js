@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { ItemDetail } from './ItemDetail';
-import { getFirestore } from '../../firebase/config'
+import { getFirestore } from '../../firebase/config';
+import { Loader } from '../Loader/Loader';
 import './ItemDetailContainer.scss';
 
 export const ItemDetailContainer = () => {
@@ -30,7 +31,7 @@ export const ItemDetailContainer = () => {
     return (
         <div>
             {loading 
-                ? <h2 className="loading container">Loading... <div className="loader"></div></h2>
+                ? <Loader/>
                 : <ItemDetail {...item}/>
             }
         </div>
