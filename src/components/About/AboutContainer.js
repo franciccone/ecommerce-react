@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { About } from './About';
 import { Loader } from '../Loader/Loader';
-import './AboutContainer.scss';
 
 export const AboutContainer = () => {
 
