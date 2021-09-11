@@ -43,7 +43,11 @@ export const CartScreen = () => {
 
                                 <hr/>
 
-                                <button className="btn btn-danger btn-empty" onClick={emptyCart}>Empty cart</button>
+                                <div className="btn-box">
+                                    <button className="btn btn-danger btn-empty" onClick={emptyCart}>Empty cart</button>
+                                    <button className="btn btn-danger btn-empty">Finish buy</button>
+                                </div>
+
                             </div>
                         </section>)
 
