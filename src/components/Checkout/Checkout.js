@@ -3,6 +3,7 @@ import { Redirect } from 'react-router';
 import Swal from 'sweetalert2';
 import { CartContext } from '../../context/CartContext';
 import { createOrder } from '../../firebase/createOrder';
+import './Checkout.scss';
 
 export const Checkout = () => {
 
@@ -48,8 +49,8 @@ export const Checkout = () => {
     };
 
     return (
-        <section>
-            <h2>Checkout</h2>
+        <section className="checkout-box">
+            <h2 className="checkout-title">Checkout</h2>
 
             <hr/>
 
@@ -57,29 +58,35 @@ export const Checkout = () => {
                 ? <Redirect to="/"/>
                 :
                 <div>
-                    <form onSubmit={handleSubmit}>
+                    <form className="form-box" onSubmit={handleSubmit}>
                         <input
+                            className="input"
                             type="text"
                             value={values.name}
                             onChange={handleInputChange}
                             name="name"
+                            placeholder="Name"
                             required
                         />
                         <input
+                            className="input"
                             type="email"
                             value={values.email}
                             onChange={handleInputChange}
                             name="email"
+                            placeholder="Email"
                             required
                         />
                         <input
+                            className="input"
                             type="phone"
                             value={values.phone}
                             onChange={handleInputChange}
                             name="phone"
+                            placeholder="Phone"
                             required
                         />
-                        <button type="submit">Submit</button>
+                        <button className="btn btn-danger form-btn" type="submit">Submit</button>
                     </form>
                 </div>
             }
