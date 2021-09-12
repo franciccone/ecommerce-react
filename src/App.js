@@ -10,6 +10,7 @@ import UIContextProvider from "./context/UIContext";
 import './scss/custom.scss';
 import './scss/styles.scss';
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { Checkout } from './components/Checkout/Checkout';
 
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
 
               <Route exact path="/cart">
                 <CartScreen/>
+              </Route>
+
+              <Route exact path="/checkout">
+                <Checkout/>
               </Route>
 
               <Route path="*">

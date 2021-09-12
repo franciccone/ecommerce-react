@@ -45,7 +45,9 @@ export const CartScreen = () => {
 
                                 <div className="btn-box">
                                     <button className="btn btn-danger btn-empty" onClick={emptyCart}>Empty cart</button>
-                                    <button className="btn btn-danger btn-empty">Finish buy</button>
+                                    <Link to="/checkout">
+                                        <button className="btn btn-danger btn-empty">Finish buy</button>
+                                    </Link>
                                 </div>
 
                             </div>
