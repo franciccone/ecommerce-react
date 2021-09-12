@@ -24,7 +24,7 @@ export const Checkout = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        if (values.name.length > 3 && values.email.length > 3 && values.tel.length > 5) {
+        if (values.name.length > 3 && values.email.length > 3) {
             createOrder(values, cart, cartTotal())
                 .then(res => {
                     Swal.fire({

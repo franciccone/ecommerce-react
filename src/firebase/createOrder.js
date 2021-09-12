@@ -6,6 +6,14 @@ export const createOrder = (buyer, cart, total) => {
 
     return new Promise( async (resolve, reject) => {
         const db = getFirestore();
+        const orders = db.collection('orders');
+
+        const newOrder = {
+            buyer: buyer,
+            items: cart,
+            total: total,
+            date: firebase.firestore.Timestamp.fromDate(new Date())
+        };
 
         const itemsToUpdate = db.collection('cities')
             .where(firebase.firestore.FieldPath.documentId(), 'in', cart.map(cities => cities.id))
@@ -24,7 +32,7 @@ export const createOrder = (buyer, cart, total) => {
             }
         });
 
-        if (!outOfStock.length === 0) {
+        if (outOfStock.length === 0) {
             orders.add(newOrder)
                 .then((res) => {
                     batch.commit()
@@ -40,21 +48,6 @@ export const createOrder = (buyer, cart, total) => {
             })
         };
 
-        const orders = db.collection('orders');
-        const newOrder = {
-            buyer: buyer,
-            items: cart,
-            total: total,
-            date: firebase.firestore.Timestamp.fromDate(new Date())
-        };
-
-        orders.add(newOrder)
-            .then((res) => {
-                resolve(res.id)
-            })
-            .catch((error) => {
-                reject(error)
-            })
-        });
+    });
 
 };
