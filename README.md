@@ -52,6 +52,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - React Bootstrap to give format to the application.
 - SASS to add styles and overwrite some React Bootstrap styles.
+- Sweetalerts2 for announce the successful or failed booking.
 - React Router Dom for navigation.
 - React Icons to add icons.
 
