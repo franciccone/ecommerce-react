@@ -88,10 +88,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3em 0;
+    margin: 1.5em 0;
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+    .back-btn-box {
+        margin: 5em 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
     .city-box {
         padding: 10px;
     }
