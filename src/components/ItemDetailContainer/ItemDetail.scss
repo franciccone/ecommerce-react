@@ -43,6 +43,7 @@
 
 .city-ticket-box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -87,14 +88,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2em 0;
+    margin: 3em 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 720px) {
+    .city-box {
+        padding: 10px;
+    }
+
+    .city-data-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 2.5vw);
+        grid-gap: 10px;
+    }
+
     .city-ticket-box {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin-top: 3em;
     }
 }
