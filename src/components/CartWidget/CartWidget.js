@@ -6,13 +6,16 @@ import { Link } from 'react-router-dom';
 
 const CartWidget = () => {
 
-    const {cartQuantity} = useContext(CartContext);
+    const {cartQuantity, cart} = useContext(CartContext);
 
     return (
         <Link to="/cart">
             <div className="cart-widget">
                 <AiOutlineShoppingCart className="cart-icon"/>
-                <span className="cart-span">{cartQuantity()}</span>
+                {
+                    cart >= 0 ? <span></span>
+                    : <span className="cart-span">{cartQuantity()}</span>
+                }
             </div>
         </Link>
     );
