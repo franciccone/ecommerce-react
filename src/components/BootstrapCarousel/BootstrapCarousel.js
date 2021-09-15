@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './BootstrapCarousel.scss';
-import ImgLondon from "../../img/sliderlondon.jpg";
-import ImgGuide from "../../img/sliderguide.jpg";
-import ImgPostcard from "../../img/sliderpostcard.jpg";
+import ImgLondon from '../../img/sliderlondon.jpg';
+import ImgGuide from '../../img/sliderguide.jpg';
+import ImgPostcard from '../../img/sliderpostcard.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 
 export class BootstrapCarousel extends Component {

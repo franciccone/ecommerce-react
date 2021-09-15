@@ -10,6 +10,8 @@ Here you can find:
 - Product list views: an overview of products with photo and minimum details.
 - Detail view: view with all product details and the option to add a quantity of the product.
 - Stock control: checks that users cannot add more items to the cart than there are available; and checks the actual stock at the time of purchase.
+- Cart: full view of the items in the cart, their total, and the option to remove a product from it.
+- User registration: fields are validated at the time of registration.
 
 ## Available Scripts
 
@@ -50,8 +52,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Dependencies
 
-- React Bootstrap to give format to the application.
+- React Bootstrap and Bootstrap Vanilla (according to React Bootstrap advice) to give format to the application.
 - SASS to add styles and overwrite some React Bootstrap styles.
+- FireBase for data persistence
 - Sweetalerts2 for announce the successful or failed booking.
 - React Router Dom for navigation.
 - React Icons to add icons.
@@ -62,4 +65,4 @@ Repository: [See](https://github.com/franciccone/ecommerce-react)
 
 ## Author
 
-[Francisco Ciccone](https://github.com/franciccone)
+[Francisco Ciccone](https://franciccone.github.io/portfolio/)

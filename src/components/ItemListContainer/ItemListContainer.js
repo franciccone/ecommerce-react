@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { ItemList } from "./ItemList";
-import { UIContext } from "../../context/UIContext";
+import { ItemList } from './ItemList';
+import { UIContext } from '../../context/UIContext';
 import { getFirestore } from '../../firebase/config';
 import { Loader } from '../Loader/Loader';
 

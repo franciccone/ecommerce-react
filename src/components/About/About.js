@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.scss';
-import ImgAbout from "../../img/guides.jpg";
+import ImgAbout from '../../img/guides.jpg';
 
 export const About = ( ) => {
 
