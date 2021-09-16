@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './BootstrapCarousel.scss';
+import './BootstrapCarousel.css';
 import ImgLondon from '../../img/sliderlondon.jpg';
 import ImgGuide from '../../img/sliderguide.jpg';
 import ImgPostcard from '../../img/sliderpostcard.jpg';

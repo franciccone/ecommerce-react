@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.scss';
+import './Footer.css';
 import { SiFacebook, SiInstagram, SiTwitter, SiYoutube } from 'react-icons/si';
 
 const Footer = () => {

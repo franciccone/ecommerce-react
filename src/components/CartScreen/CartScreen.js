@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
 import { BsFillTrashFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-import './CartScreen.scss';
+import './CartScreen.css';
 
 export const CartScreen = () => {
 

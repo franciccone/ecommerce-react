@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import './CartWidget.scss';
+import './CartWidget.css';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { CartContext } from '../../context/CartContext';
 import { Link } from 'react-router-dom';

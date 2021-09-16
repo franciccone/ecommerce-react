@@ -3,7 +3,7 @@ import { Redirect } from 'react-router';
 import Swal from 'sweetalert2';
 import { CartContext } from '../../context/CartContext';
 import { createOrder } from '../../firebase/createOrder';
-import './Checkout.scss';
+import './Checkout.css';
 
 export const Checkout = () => {
 

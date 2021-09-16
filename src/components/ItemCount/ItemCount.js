@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './ItemCount.scss';
+import './ItemCount.css';
 
 export const ItemCount = ({max, quantity, setQuantity, add, added}) => {
 

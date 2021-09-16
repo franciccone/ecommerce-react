@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Item.scss';
+import './Item.css';
 
 export const Item = ( {id, img, name, desc, price} ) => {
     return (
