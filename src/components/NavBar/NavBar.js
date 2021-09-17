@@ -6,11 +6,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const NavBar = () => {
     return (
 
-            <Navbar expand="lg">
+            <Navbar collapseOnSelect expand="lg">
                 <Container>
                     <Navbar.Brand as={Link} to={"/"}>UMBRELLA</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -6,7 +6,6 @@
     justify-content: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: #E63946;
 }
 
 .social-media {
@@ -22,6 +21,10 @@
     font-size: 1.8em;
 }
 
-.sm-icon:hover {
+a {
+    color: #E63946 !important;
+}
+
+a:hover {
     color: #1D3557;
 }

@@ -21,3 +21,7 @@
 .active-class {
     color: #1D3557;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #E63946;
+}

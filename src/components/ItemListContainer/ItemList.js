@@ -5,7 +5,7 @@ import './ItemList.css';
 export const ItemList = ( {cities = []} ) => {
 
     return (
-        <section className="container my-5">
+        <section className="container container-fluid">
             <h2 className="container-title">Found us here</h2>
             <hr/>
             <div className="row">

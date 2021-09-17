@@ -11,10 +11,10 @@
     box-sizing: border-box;
 }
 
-body {
+html {
     font-family: 'Montserrat', sans-serif;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }

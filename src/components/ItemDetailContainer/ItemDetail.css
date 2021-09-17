@@ -89,6 +89,7 @@
     justify-content: center;
     align-items: center;
     margin: 1.5em 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1024px) {
