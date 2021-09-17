@@ -13,7 +13,7 @@ export const AboutContainer = () => {
     }, [])
     
     return (
-        <div>
+        <div className="container-fluid">
             {loading 
                 ? <Loader/>
                 : <About/>

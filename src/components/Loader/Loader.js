@@ -3,6 +3,6 @@ import './Loader.css';
 
 export const Loader = ()=>{
 
-    return <h2 className="loading container">Loading... <div className="loader"></div></h2>
+    return <h2 className="loading container-fluid">Loading... <div className="loader container-fluid"></div></h2>
 
 };
