@@ -7,8 +7,7 @@ import AboutContainer from './components/About/AboutContainer';
 import CartProvider from './context/CartContext';
 import CartScreen from './components/CartScreen/CartScreen';
 import UIContextProvider from './context/UIContext';
-import './scss/custom.scss';
-import './scss/styles.css';
+import './css/styles.css';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { Checkout } from './components/Checkout/Checkout';
 
