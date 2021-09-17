@@ -42,7 +42,7 @@
 
 .card-btn {
     background-color: #E63946;
-    color: #F1FAEE;
+    color: #F1FAEE !important;
     border: 2px #E63946 solid;
     border-radius: 15px;
     padding: 12px;
@@ -52,7 +52,7 @@
 }
 
 .card-btn:hover {
-    color: #E63946;
+    color: #E63946 !important;
     background-color: #F1FAEE;
 }
 
