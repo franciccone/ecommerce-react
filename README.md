@@ -52,8 +52,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Dependencies
 
-- React Bootstrap and Bootstrap Vanilla (according to React Bootstrap advice) to give format to the application.
-- SASS to add styles and overwrite some React Bootstrap styles.
+- React Bootstrap and Bootstrap Vanilla [(according to React Bootstrap advice)](https://react-bootstrap.github.io/getting-started/introduction/) to give format to the application.
 - FireBase for data persistence
 - Sweetalerts2 for announce the successful or failed booking.
 - React Router Dom for navigation.
