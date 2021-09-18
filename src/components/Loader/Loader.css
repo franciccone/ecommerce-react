@@ -3,7 +3,7 @@
 .loading {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 20px 20px;
     min-height: 400px;
     font-family: 'Montserrat', sans-serif;
@@ -29,6 +29,6 @@
 
 @media only screen and (min-width: 1024px) {
     .loading {
-        margin: 100px 100px;
+        margin: 200px 200px;
     }
 }
