@@ -1,6 +1,7 @@
 import { createContext, useState, useEffect } from 'react';
 
 // Context creation
+
 export const CartContext = createContext();
 
 // Custom Provider

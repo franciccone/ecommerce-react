@@ -58,7 +58,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - React Bootstrap and Bootstrap Vanilla [(according to React Bootstrap advice)](https://react-bootstrap.github.io/getting-started/introduction/) to give format to the application.
 - FireBase for data persistence
-- Sweetalerts2 for announce the successful or failed booking.
+- Sweetalerts2 to announce the successful or failed booking.
 - React Router Dom for navigation.
 - React Icons to add icons.
 
