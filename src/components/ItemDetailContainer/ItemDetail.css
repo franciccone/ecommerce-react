@@ -92,6 +92,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* MEDIA QUERIES */
+
 @media only screen and (min-width: 1024px) and (max-width: 1024px) {
     .back-btn-box {
         margin: 5em 0;

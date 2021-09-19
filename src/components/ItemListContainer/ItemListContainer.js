@@ -18,6 +18,7 @@ const ItemListContainer = () => {
         const cities = db.collection('cities')
 
         if (regionId) {
+            // Cities filtered by region
             const filtered = cities.where('region', '==', regionId)
             filtered.get()
                 .then((response) => {

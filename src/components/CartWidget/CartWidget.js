@@ -13,6 +13,7 @@ const CartWidget = () => {
             <div className="cart-widget">
                 <AiOutlineShoppingCart className="cart-icon"/>
                 {
+                    /* Span is not shown if the cart is empty */
                     cart >= 0 ? <span></span>
                     : <span className="cart-span">{cartQuantity()}</span>
                 }

@@ -10,7 +10,9 @@ export const CartScreen = () => {
 
     return (
         <>
-        { cart >= 0 ? (<section className="cart-screen-container">
+        { cart >= 0 ? (
+                        // If the cart is empty, this section is shown
+                        <section className="cart-screen-container">
 
                         <div className="cart-screen-container-empty">
                             <h1 className="cart-screen-title">Your cart is empty!</h1>
@@ -25,7 +27,7 @@ export const CartScreen = () => {
                         </section>
                         
                         )   :   (
-                        
+                        // If the cart has items inside, this section is showed
                         <section className="cart-screen-container">
                             <div>
                                 <h1 className="cart-screen-title">Your tours</h1>

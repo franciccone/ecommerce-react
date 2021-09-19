@@ -71,6 +71,8 @@
     margin: 0 0.5em 1.6em 0.5em;
 }
 
+/* MEDIA QUERIES */
+
 @media only screen and (min-width: 1024px) {
     .cart-screen-container-full {
         margin: 0.8em 0.5em;

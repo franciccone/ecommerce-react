@@ -56,6 +56,8 @@
     background-color: #F1FAEE;
 }
 
+/* MEDIA QUERIES */
+
 @media only screen and (min-width: 1024px) {
     .card {
         flex: 0 1 calc(25% - 1em);
