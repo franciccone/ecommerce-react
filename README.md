@@ -2,6 +2,8 @@
 
 This App, called Umbrella Tourism, is an e-commerce with tourism guides across all major European cities.
 
+![](ecommerce.gif)
+
 ## Details
 
 Here you can find:
