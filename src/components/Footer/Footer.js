@@ -8,10 +8,10 @@ const Footer = () => {
             <footer className="footer container-fluid">
 
                 <ul className="social-media">
-                    <a className="sm-icon" href="https://github.com/franciccone"><SiFacebook/></a>
-                    <a className="sm-icon" href="https://github.com/franciccone"><SiInstagram/></a>
-                    <a className="sm-icon" href="https://github.com/franciccone"><SiTwitter/></a>
-                    <a className="sm-icon" href="https://github.com/franciccone"><SiYoutube/></a>
+                    <a className="sm-icon" href="https://franciccone.github.io/portfolio/" target="_blank"><SiFacebook/></a>
+                    <a className="sm-icon" href="https://franciccone.github.io/portfolio/" target="_blank"><SiInstagram/></a>
+                    <a className="sm-icon" href="https://franciccone.github.io/portfolio/" target="_blank"><SiTwitter/></a>
+                    <a className="sm-icon" href="https://franciccone.github.io/portfolio/" target="_blank"><SiYoutube/></a>
                 </ul>
 
             </footer>
