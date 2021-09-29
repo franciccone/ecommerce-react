@@ -67,6 +67,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Links
 
 Repository: [See](https://github.com/franciccone/ecommerce-react)
+Live Preview: [See](http://franciccone.github.io/ecommerce-react)
 
 ## Author
 
