@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './BootstrapCarousel.css';
 import ImgLondon from '../../img/sliderlondon.jpg';
 import ImgGuide from '../../img/sliderguide.jpg';
 import ImgPostcard from '../../img/sliderpostcard.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 
-export class BootstrapCarousel extends Component {
+export const BootstrapCarousel = () => {
 
-    render() {  
         return (
 
             <Carousel className="container-slider">
@@ -38,7 +37,5 @@ export class BootstrapCarousel extends Component {
             </Carousel>
         );
     };
-    
-};
 
 export default BootstrapCarousel;
